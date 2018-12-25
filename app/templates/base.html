@@ -3,14 +3,18 @@
         {% if title %}
         <title>{{ title }} - Thundernugget</title>
         {% else %}
-        <title>Welcome to Microblog</title>
+        <title>Welcome to Thundertown</title>
         {% endif %}
     </head>
     <body>
         <div>
-           Thundernugget:
+           Thundernugget - a human blog:
             <a href="{{ url_for('index') }}">Home</a>
-            <a href="{{ url_for('login') }}">Login</a>
+           {% if current_user.is_anonymous %}
+	    <a href="{{ url_for('login') }}">Login</a>
+           {% else %}
+	    <a href="{{ url_for('logout') }}">Logout</a>
+	   {% endif %}
         </div>
         <hr>
         {% with messages = get_flashed_messages() %}
