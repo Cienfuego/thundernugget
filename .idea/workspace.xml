@@ -8,11 +8,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
     <option name="width" value="644" />
     <option name="height" value="741" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -25,6 +38,11 @@
             <path>
               <item name="thundernugget" type="b2602c69:ProjectViewProjectNode" />
               <item name="thundernugget" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thundernugget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thundernugget" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -81,5 +99,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
