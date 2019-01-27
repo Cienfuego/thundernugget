@@ -1,0 +1,56 @@
+2018-12-30 16:56:36,766 ERROR: Exception on /index [GET] [in /home/michael/thundernugget/venv/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/michael/thundernugget/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/michael/thundernugget/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/michael/thundernugget/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/michael/thundernugget/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/michael/thundernugget/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/michael/thundernugget/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/michael/thundernugget/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/michael/thundernugget/app/routes.py", line 28, in index
+    page, app.config['POSTS_PER_PAGE'], False)
+KeyError: 'POSTS_PER_PAGE'
+2018-12-30 17:07:31,619 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:39]
+2018-12-30 17:07:59,715 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:39]
+2018-12-30 18:13:31,554 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:39]
+2018-12-31 19:59:31,190 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:39]
+2018-12-31 20:04:09,712 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:39]
+2018-12-31 21:18:15,731 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:39]
+2018-12-31 21:51:23,486 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:39]
+2018-12-31 21:51:26,854 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:39]
+2019-01-01 08:55:18,790 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 10:18:28,883 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 10:34:40,510 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 10:41:53,650 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 10:44:51,950 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 12:20:16,118 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 12:20:22,028 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 15:40:00,588 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 17:15:02,462 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 17:44:24,540 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 17:45:14,725 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 17:47:47,551 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 17:49:09,930 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-01 17:49:37,973 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-05 17:48:22,441 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:41]
+2019-01-05 18:24:19,736 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:43]
+2019-01-05 18:26:54,081 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:43]
+2019-01-05 19:54:11,593 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:45]
+2019-01-06 20:28:05,856 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-06 20:29:40,271 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-06 20:35:52,369 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-06 20:57:28,285 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-06 21:05:33,255 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-06 21:06:12,993 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-06 21:06:48,512 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-06 21:14:43,963 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-06 21:15:11,482 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:47]
+2019-01-09 22:15:50,140 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:76]
+2019-01-09 22:27:57,947 INFO: Thundernugget startup [in /home/michael/thundernugget/app/__init__.py:76]
